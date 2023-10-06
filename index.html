@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu con los sitios web</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: #7c99af; /* Cambia el color de fondo aquí */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .menu-button {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 20px;
+            font-size: 20px;
+            background-color: #242424;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-align: center;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-button:hover {
+            background-color: #7371b0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi menu, selecciona un siito web en donde quieras navegar</h1>
+    <div class="menu">
+        <button class="menu-button" id="personal">Sitio web personal</button>
+        <button class="menu-button" id="empresa">Sitio web empresa</button>
+        <button class="menu-button" id="cuerpoh">Sitio web sistema digestivo</button>
+        <button class="menu-button" id="cubor">Sitio web cubo rubik</button>
+    </div>
+
+    <script src="pag.js"></script>
+</body>
+</html>

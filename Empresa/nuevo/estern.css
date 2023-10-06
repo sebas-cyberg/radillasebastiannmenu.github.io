@@ -1,0 +1,41 @@
+h1    {
+
+    color:rgb(10, 9, 9);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+
+
+}
+
+h2    {
+
+    color:rgb(10, 9, 9);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+
+} 
+
+select {
+
+      color:rgb(10, 9, 9);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+
+
+  } 
+
+
+input[type=submit]
+
+{
+
+color:rgb(10, 9, 9);
+font-family: 'Montserrat', sans-serif;
+font-size: 40px;
+background-color: green;
+
+
+
+
+}
